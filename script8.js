@@ -15,7 +15,7 @@ var compteur =10
 function reinitialiser(){
     document.getElementById("bouton").disabled=false
     document.getElementById("madiv").innerHTML=""
-    document.getElementById("madiv2").innerHTML="Réponses proposées : "
+    document.getElementById("madiv2").innerHTML=""
     document.getElementById("madiv3").innerHTML=""
     document.getElementById("montext").value=""
     var aleatoire=entierAleatoire(1, 100)
